@@ -37,3 +37,9 @@
   with_items:
     - PIG_HOME={{ pig_install_dest }}/pig
     - PATH=$PATH:$PIG_HOME/bin
+  tags:
+    - pig
+    - pig_profile_d
+    - profile_d
+    - pig_install
+    - install
