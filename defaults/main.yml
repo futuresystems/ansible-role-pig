@@ -1,9 +1,10 @@
 ---
 
-pig_version: 0.15.0
+pig_version: 0.16.0
 pig_install_dest: /opt
 
 pig_url: "https://www.us.apache.org/dist/pig/pig-{{ pig_version }}/pig-{{ pig_version }}.tar.gz"
 
 _pig_bin_sha256:
   0.15.0: c52112ca618daaca298cf068e6451449fe946e8dccd812d56f8f537aa275234b
+  0.16.0: 08947c3f381a1f810430c3703081277bd0b27ac3f76c5a52c096ea587e7ee95c
