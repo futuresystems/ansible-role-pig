@@ -2,7 +2,7 @@
 
 - name: download pig
   get_url:
-    url: "https://www.us.apache.org/dist/pig/latest/pig-{{ pig_version }}.tar.gz"
+    url: "{{ pig_url }}"
     dest: "{{ ansible_env.PWD }}/pig-{{ pig_version }}.tar.gz"
     sha256sum: "{{ _pig_bin_sha256[pig_version] }}"
     validate_certs: no
